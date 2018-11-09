@@ -1,0 +1,16 @@
+{
+	"name": "object-to-html-table",
+	"version": "1.0.0",
+	"description": "A function that converts a JS object to an HTML table.",
+	"author": "Michele Nasti",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"license": "ISC",
+	"devDependencies": {
+		"eslint": "^5.8.0",
+		"eslint-plugin-jest": "^22.0.0",
+		"jest": "^23.6.0"
+	}
+}
