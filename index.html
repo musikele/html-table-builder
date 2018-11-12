@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<title>From Object to HTML Table</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+	</head>
+	<body>
+		<h1>Test!</h1>
+		<div id="test-table"></div>
+		<script src="dist/object-to-html-table.js"></script>
+		<script>
+			const testData = [
+				{
+					mountain: 'Everest',
+					height: 8700,
+					place: 'Tibet'
+				},
+				{
+					mountain: 'Monte Bianco',
+					height: 4801,
+					place: 'Italy',
+					region: "Valle d'Aosta"
+				},
+				{
+					collina: 'Monte Gatto',
+					height: 640,
+					town: 'Lanzara'
+				}
+			];
+
+			const htmlTable = SuperTable.objectToHtmlTable(testData);
+
+			document.getElementById('test-table').appendChild(htmlTable);
+		</script>
+	</body>
+</html>
