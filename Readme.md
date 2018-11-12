@@ -43,38 +43,11 @@ document.getElementById('test-table').appendChild(htmlTable);
 
 ```
 
-Here's the table:
-
-<div id="test-table"></div>
-<script src="dist/super-table.js"></script>
-<script>
-	const testData = [
-		{
-		mountain: 'Everest',
-		height: 8848,
-		chain: 'Himalaya'
-    },
-    {
-      mountain: 'Fuji',
-      height: 3776,
-      country: 'Japan',
-      type: 'volcano'
-    },
-    {
-      mountain: 'Kilimanjaro',
-      height: 5895,
-      country: 'Tanzania',
-      type: 'volcano'
-    }
-	];
-  const htmlTable = SuperTable.objectToHtmlTable(testData);
-  document.getElementById('test-table').appendChild(htmlTable);
-</script>
-
-## To do 
+## Todo 
 
 The next stuff I want to do in this library is: 
 
+- a live example
 - accept everything, not only an array of object. If in the array you pass a string, render the string. If you pass another array, render an inner table inside. etc etc. 
 - From table to json: this will be more difficult and will require more time, but eventually I'll do it. 
 
