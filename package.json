@@ -1,5 +1,5 @@
 {
-	"name": "object-to-html-table",
+	"name": "html-table-builder",
 	"version": "1.0.0",
 	"description": "A function that converts a JS object to an HTML table.",
 	"author": "Michele Nasti",

@@ -3,8 +3,8 @@ module.exports = {
   entry: './index.js',
   target: 'web',
   output: {
-    filename: 'super-table.js',
-    library: 'SuperTable',
+    filename: 'html-table-builder.js',
+    library: 'HtmlTableBuilder',
     libraryTarget: 'umd'
   },
   mode: 'production',

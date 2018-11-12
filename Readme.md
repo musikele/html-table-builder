@@ -1,5 +1,5 @@
 
-## SuperTable 
+## HtmlTableBuilder 
 
 ... _The missing table generator_. 
 
@@ -15,7 +15,7 @@ First create a div with an id:
 <div id="test-table"></div>
 ```
 
-Then pass the array you want to render as HTML table to the function `SuperTable.objectToHtmlTable()` and see the magic happening.
+Then pass the array you want to render as HTML table to the function `HtmlTableBuilder.objectToHtmlTable()` and see the magic happening.
 
 ```javascript 
 const testData = [
@@ -38,7 +38,7 @@ const testData = [
   }
 ];
 
-const htmlTable = SuperTable.objectToHtmlTable(testData);
+const htmlTable = HtmlTableBuilder.objectToHtmlTable(testData);
 document.getElementById('test-table').appendChild(htmlTable);
 
 ```
