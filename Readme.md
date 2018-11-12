@@ -67,10 +67,8 @@ Here's the table:
       type: 'volcano'
     }
 	];
-
-	const htmlTable = SuperTable.objectToHtmlTable(testData);
-
-	document.getElementById('test-table').appendChild(htmlTable);
+  const htmlTable = SuperTable.objectToHtmlTable(testData);
+  document.getElementById('test-table').appendChild(htmlTable);
 </script>
 
 ## To do 
