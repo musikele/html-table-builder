@@ -8,5 +8,8 @@ module.exports = {
     libraryTarget: 'umd'
   },
   mode: 'production',
-  devtool: 'source-map'
+  devtool: 'source-map',
+  externals: {
+    jsdom: 'JSDOM'
+  }
 };

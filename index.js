@@ -1,7 +1,10 @@
 const { getColumns } = require('./get-columns/');
 
 function objectToHtmlTable(data, document) {
-  const doc = document || window.document;
+  const doc =
+    document || window
+      ? window.document
+      : require('jsdom').JSDOM.window.document;
 
   if (!data) return null;
   let table = doc.createElement('table');
