@@ -7,7 +7,8 @@
 	"scripts": {
 		"test": "jest",
 		"test-watch": "nodemon --watch . --exec 'jest || true'",
-		"build": "npm test && webpack --config ./webpack.config.js"
+		"build": "npm test && webpack --config ./webpack.config.js",
+		"mdserver": "md-server Readme.md"
 	},
 	"license": "ISC",
 	"devDependencies": {
@@ -15,6 +16,7 @@
 		"eslint-plugin-jest": "^22.0.0",
 		"jest": "^23.6.0",
 		"jsdom": "^13.0.0",
+		"md-server": "0.0.5",
 		"nodemon": "^1.18.6",
 		"webpack": "^4.25.1",
 		"webpack-cli": "^3.1.2"
