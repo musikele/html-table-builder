@@ -1,6 +1,6 @@
 {
   "name": "html-table-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A function that converts a JS object to an HTML table.",
   "author": "Michele Nasti <michele@michelenasti.com> (https://michelenasti.com)",
   "main": "index.js",
